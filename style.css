@@ -2,3 +2,20 @@
     border-radius: 30px !important;
     font-size: 12px !important;
 }
+
+.bg-image-header {
+    background-image: url(./images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-text {
+    letter-spacing: 10px;
+}
+
+.header-icon {
+    font-size: 150px;
+    margin: auto;
+}
