@@ -20,11 +20,11 @@
     </head>
     <body class="">
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <nav class="navbar navbar-expand-sm fixed-top navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand text-white fw-semibold fs-5" href="#"
-                    >sunnyside</a
-                >
+                <a class="navbar-brand text-white fw-semibold fs-5" href="#">
+                    <img src="./images/logo.svg" alt="" />
+                </a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -36,15 +36,18 @@
                 >
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div
+                    class="collapse navbar-collapse bg-sm-light mt-3 mt-sm-0"
+                    id="navbarNav"
+                >
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item me-3">
+                        <li class="nav-item me-sm-3">
                             <a class="nav-link text-white" href="#">About</a>
                         </li>
-                        <li class="nav-item me-3">
+                        <li class="nav-item me-sm-3">
                             <a class="nav-link text-white" href="#">Services</a>
                         </li>
-                        <li class="nav-item me-4">
+                        <li class="nav-item me-sm-4">
                             <a class="nav-link text-white" href="#">Projects</a>
                         </li>
                     </ul>
@@ -57,14 +60,21 @@
                 </div>
             </div>
         </nav>
+        <!-- header -->
         <div class="p-4 p-md-5 text-white bg-dark bg-image-header">
-            <div class="">
+            <div
+                class="container d-flex justify-content-center align-items-center h-50"
+            >
                 <h1
-                    class="text-uppercase text-center text-uppercase font-monospace fw-bolder pt-5 header-text"
+                    class="text-uppercase text-center text-uppercase font-monospace fw-bolder my-auto header-text align-self-center"
                 >
                     We Are Creatives!
                 </h1>
-                <i class="fa-solid fa-arrow-down-long header-icon"></i>
+                <img
+                    src="./images/icon-arrow-down.svg"
+                    class="position-absolute top-50 start-50 translate-middle"
+                    alt=""
+                />
             </div>
         </div>
     </body>

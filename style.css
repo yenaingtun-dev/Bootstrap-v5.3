@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+body {
+    font-size: 18px;
+    font-family: "barlow";
+}
+
 .nav-button {
     border-radius: 30px !important;
     font-size: 12px !important;
@@ -15,7 +23,16 @@
     letter-spacing: 10px;
 }
 
-.header-icon {
-    font-size: 150px;
-    margin: auto;
+@media only screen and (max-width: 575px) {
+    .bg-sm-light {
+        background: hsl(232, 10%, 55%);
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        align-items: center;
+    }
+    .btn-light {
+        background-color: hsl(51, 100%, 49%) !important;
+        border-color: hsl(51, 100%, 49%) !important;
+    }
 }
