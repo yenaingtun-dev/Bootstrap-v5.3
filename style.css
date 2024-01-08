@@ -6,6 +6,8 @@ body {
     font-family: "barlow";
 }
 
+/* navbar */
+
 .nav-text {
     color: white !important;
 }
@@ -35,6 +37,8 @@ body {
     transition: 0.3s;
 }
 
+/* header */
+
 .bg-image-header {
     background-image: url(./images/desktop/image-header.jpg);
     background-repeat: no-repeat;
@@ -43,11 +47,27 @@ body {
     height: 100vh;
 }
 
+.arrow-icon {
+    position: absolute !important;
+    left: 50% !important;
+    top: 53% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-image-header {
+        height: 70vh;
+    }
+    .arrow-icon {
+        top: 40% !important;
+    }
+}
+
 .header-text {
     letter-spacing: 10px;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 576px) {
     .bg-sm-light {
         background: #fdf7ed;
         padding: 10px;
