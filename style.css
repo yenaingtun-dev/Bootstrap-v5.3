@@ -6,9 +6,33 @@ body {
     font-family: "barlow";
 }
 
+.nav-text {
+    color: white !important;
+}
+
+.nav-text:hover {
+    color: hsl(51, 100%, 49%) !important;
+}
+
+@media only screen and (max-width: 575px) {
+    .nav-text {
+        color: hsl(198, 62%, 26%) !important;
+    }
+
+    .nav-text:hover {
+        color: hsl(51, 100%, 49%) !important;
+    }
+}
+
 .nav-button {
     border-radius: 30px !important;
     font-size: 12px !important;
+}
+
+.nav-button:hover {
+    background-color: hsl(51, 100%, 49%) !important;
+    color: white !important;
+    transition: 0.3s;
 }
 
 .bg-image-header {
