@@ -25,7 +25,7 @@ body {
 
 @media only screen and (max-width: 575px) {
     .bg-sm-light {
-        background: hsl(232, 10%, 55%);
+        background: #fdf7ed;
         padding: 10px;
         text-align: center;
         margin: auto;
@@ -35,4 +35,8 @@ body {
         background-color: hsl(51, 100%, 49%) !important;
         border-color: hsl(51, 100%, 49%) !important;
     }
+}
+
+.bg-bisque {
+    background-color: #fdf7ed;
 }
